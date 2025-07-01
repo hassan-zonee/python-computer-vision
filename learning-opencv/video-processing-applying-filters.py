@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('../testvid.mp4')
+cap = cv2.VideoCapture('testvid.mp4')
 h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT) * 0.4)
 w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) * 0.4)
 fps = cap.get(cv2.CAP_PROP_FPS)
